@@ -3221,7 +3221,7 @@ image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: menunya })
 }
 break
-case 'listmenu':{
+case 'listmenu': case 'ikylist':{
 if (!isCreator && !isBan) return
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 listMessage :{
@@ -3234,9 +3234,9 @@ sections: [{
 "title": "BUG MENU",
 "rows": [
 {
-"title": "BUG MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
-"rowId": `${prefix}bugmenu`
+"title": "BUG IKY",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
+"rowId": `${prefix}bugiky`
 }
 ]
 },
@@ -3245,7 +3245,7 @@ sections: [{
 "rows": [
 {
 "title": "OWNER MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}ownermenu`
 }
 ]
@@ -3255,7 +3255,7 @@ sections: [{
 "rows": [
 {
 "title": "GRUP MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}grupmenu`
 }
 ]
@@ -3265,7 +3265,7 @@ sections: [{
 "rows": [
 {
 "title": "WEBZONE MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}webzonemenu`
 }
 ]
@@ -3275,7 +3275,7 @@ sections: [{
 "rows": [
 {
 "title": "DOWNLOAD MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}downloadmenu`
 }
 ]
@@ -3285,7 +3285,7 @@ sections: [{
 "rows": [
 {
 "title": "SEARCH MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}searchmenu`
 }
 ]
@@ -3295,7 +3295,7 @@ sections: [{
 "rows": [
 {
 "title": "RANDOM MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}randommenu`
 }
 ]
@@ -3305,7 +3305,7 @@ sections: [{
 "rows": [
 {
 "title": "TEKSPRO MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}tekspromenu`
 }
 ]
@@ -3315,7 +3315,7 @@ sections: [{
 "rows": [
 {
 "title": "PHOTO MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}photomenu`
 }
 ]
@@ -3325,7 +3325,7 @@ sections: [{
 "rows": [
 {
 "title": "EPHOTO MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}ephotomenu`
 }
 ]
@@ -3335,7 +3335,7 @@ sections: [{
 "rows": [
 {
 "title": "PHOTOOXY MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}photooxymenu`
 }
 ]
@@ -3345,7 +3345,7 @@ sections: [{
 "rows": [
 {
 "title": "FUN MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}funmenu`
 }
 ]
@@ -3355,7 +3355,7 @@ sections: [{
 "rows": [
 {
 "title": "PRIMBON MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}primbonmenu`
 }
 ]
@@ -3365,7 +3365,7 @@ sections: [{
 "rows": [
 {
 "title": "CONVERT MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}convertmenu`
 }
 ]
@@ -3375,7 +3375,7 @@ sections: [{
 "rows": [
 {
 "title": "MAIN MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}mainmenu`
 }
 ]
@@ -3385,7 +3385,7 @@ sections: [{
 "rows": [
 {
 "title": "DATABASE MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}databasemenu`
 }
 ]
@@ -3395,7 +3395,7 @@ sections: [{
 "rows": [
 {
 "title": "ANONYMOUS MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}anonymousmenu`
 }
 ]
@@ -3405,7 +3405,7 @@ sections: [{
 "rows": [
 {
 "title": "ISLAMIC MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}islamicmenu`
 }
 ]
@@ -3415,7 +3415,7 @@ sections: [{
 "rows": [
 {
 "title": "VOICE MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥",
 "rowId": `${prefix}voicemenu`
 }
 ]
@@ -4540,6 +4540,14 @@ case 'ikydark': {
 jobotz.sendMessage(m.chat, {audio: fs.readFileSync('./src/iky7.mp3'), mimetype: 'audio/mpeg', ptt:true })
 }
 break
+case 'bokep':{
+if (!isCreator && !isBan) return
+let jokowi = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername} ${ngazap}`,jpegThumbnail: thumb}}}
+sugiono = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyTod`)
+jobotz.sendMessage(m.chat, { video: sugiono, mimetype: 'video/mp4', fileName: `${command}.mp4`}, { quoted: jokowi })
+jancok(`Tuh Bokep`)
+}
+break
 case 'intro': {
  menunya = `
 Nama lengkap:
@@ -4657,16 +4665,8 @@ Teman main game:
 Teman sekolah:
 Temen rumah:
 `
- image = fs.readFileSync('./lib/jo.jpg'),
+image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: menunya })
-}
-break
-case 'bokep':{
-if (!isCreator && !isBan) return
-let jokowi = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername} ${ngazap}`,jpegThumbnail: thumb}}}
-sugiono = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyTod`)
-jobotz.sendMessage(m.chat, { video: sugiono, mimetype: 'video/mp4', fileName: `${command}.mp4`}, { quoted: jokowi })
-jancok(`Tuh Bokep`)
 }
 break
 case 'tengkorak': {
@@ -4936,7 +4936,7 @@ if (!isCreator && !isBan) return
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
+            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo})
             }
             jancok(`Sukses Send Bug Sebanyak ${jumlah}`)
             }
