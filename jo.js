@@ -4937,14 +4937,6 @@ if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
             jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
-            jobotz.sendMessage(m.chat, {text:"𝐈𝐊𝐘𝐘 𝐍𝐎𝐓 𝐀𝐋𝐈𝐄𝐍⚡"},{quoted:fgamjo}
             }
             jancok(`Sukses Send Bug Sebanyak ${jumlah}`)
             }
