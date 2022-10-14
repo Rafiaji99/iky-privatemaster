@@ -3190,7 +3190,7 @@ jobotz.sendMessage(m.chat, {audio: fs.readFileSync('./src/iky.mp3'), mimetype: '
 ▰▱▰▱▰▱▰▱▰▱▰▱▰
 ╭─────────────────╮
 │      ◪〘 MENU BOT 〙◪
-│  OWNER : ${botname}
+│  OWNER : global.ownername
 ╰─────────────────╮
 ╭─────────────────╯
 ├⊱❏ BUGIKY ( fitur khusus owner!! ) 
