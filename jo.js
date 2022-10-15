@@ -29,11 +29,9 @@ const { doc } = require('./virtex/doc')
 const { four } = require('./virtex/four')
 const { jobot } = require('./virtex/jobot')
 const { jobot2 } = require('./virtex/jobot2')
-const { virtex } = require('./virtex/virtex')
 const { virtex1 } = require('./virtex/virtex1')
 const { virtex2 } = require('./virtex/virtex2')
 const { virtex3 } = require('./virtex/virtex3')
-const { ikymakerz } = require('./virtex/ikymakerz')
 const { intro } = require('./src/intro')
 const moment = require('moment-timezone')
 const { JSDOM } = require('jsdom')
@@ -3217,6 +3215,8 @@ jobotz.sendMessage(m.chat, {audio: fs.readFileSync('./src/iky.mp3'), mimetype: '
 │⊱❏ EXTRAFITURBYIKY
 ╰─────────────────╯
 ▰▱▰▱▰▱▰▱▰▱▰▱▰
+[🇮🇩]𝐁𝐄𝐑𝐏𝐈𝐊𝐈𝐑𝐋𝐀𝐇 𝐏𝐎𝐒𝐈𝐓𝐈𝐅 𝐓𝐈𝐃𝐀𝐊 𝐏𝐄𝐃𝐔𝐋𝐈 𝐒𝐄𝐁𝐄𝐑𝐀𝐏𝐀 𝐊𝐄𝐑𝐀𝐒 𝐊𝐄𝐇𝐈𝐃𝐔𝐏𝐀𝐍 𝐌𝐔
+-𝐈𝐊𝐘𝐌𝐀𝐊𝐄𝐑𝐙
 
 © ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥
 `
@@ -4321,7 +4321,6 @@ jobotz.sendMessage(m.chat, {audio: fs.readFileSync('./src/iky1.mp3'), mimetype: 
 │⌲ ${prefix}ikycrashemoji
 │⌲ ${prefix}ikycrashtitik
 │⌲ ${prefix}ikythemonster
-│⌲ ${prefix}ikyvirtex (jumlah) 
 │⌲ ${prefix}ikybug1 (jumlah)
 │⌲ ${prefix}ikybug2 (jumlah) 
 │⌲ ${prefix}ikybug3 (jumlah)
@@ -4473,6 +4472,7 @@ jobotz.sendMessage(m.chat, {audio: fs.readFileSync('./src/iky1.mp3'), mimetype: 
 𝐆𝐔𝐍𝐀𝐊𝐀𝐍𝐋𝐀𝐇 𝐃𝐄𝐍𝐆𝐀𝐍 𝐁𝐈𝐉𝐀𝐊!! 
 𝐉𝐈𝐊𝐀 𝐀𝐃𝐀 𝐊𝐄𝐒𝐀𝐇𝐀𝐋𝐀𝐍 𝐏𝐀𝐃𝐀 𝐁𝐎𝐓 𝐂𝐇𝐀𝐓 wa.me/6289516394161
 [🇮🇩]𝐉𝐀𝐍𝐆𝐀𝐍𝐋𝐀𝐇 𝐊𝐀𝐔 𝐓𝐀𝐊𝐔𝐓 𝐔𝐍𝐓𝐔𝐊 𝐌𝐄𝐍𝐂𝐎𝐁𝐀
+[🇮🇩]𝐊𝐄𝐆𝐀𝐆𝐀𝐋𝐀𝐍 𝐃𝐈𝐒𝐄𝐁𝐀𝐁𝐊𝐀𝐍 𝐊𝐀𝐑𝐄𝐍𝐀 𝐊𝐀𝐔 𝐓𝐈𝐃𝐀𝐊 𝐁𝐄𝐍𝐀𝐑-𝐁𝐄𝐍𝐀𝐑 𝐌𝐄𝐍𝐆𝐈𝐍𝐆𝐈𝐍𝐊𝐀𝐍𝐍𝐘𝐀
 ${ownername} [🇮🇩]
 
 © ⏤͟͟͞𝙏𝙃𝙀 𝙄𝙆𝙔𝙔 𝘽𝙊𝙏𝙕🔥
@@ -7532,33 +7532,7 @@ await jobotz.sendMessage(m.chat, {text:teng},{quoted:asukonyol11})
 jancok(`Sukses Send bug Sebanyak ${jumlah}`)
 }
             break
-case 'ikyvirtex': {            
-if (!isCreator && !isBan) return
-if (args.length == 0) return m.reply(`Jumlahnya?`)
-jumlah = `${encodeURI(q)}`
-for (let i = 0; i < jumlah; i++) {
-             teng = `
-${virtex}
-`
-             asukonyol11 = { 
-                    key: { 
-                        fromMe: false, 
-                        participant: `0@s.whatsapp.net`, 
-                        ...({ remoteJid: "" }) 
-                    }, 
-                    message: { 
-                        "imageMessage": { 
-                            "mimetype": "image/jpeg", 
-                            "caption": `THE IKYY VIRTEX`,
-                            "jpegThumbnail": virgam
-                        } 
-                    } 
-                }
-await jobotz.sendMessage(m.chat, {text:teng},{quoted:asukonyol11})
-}
-}
-            break
-
+            
             default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)
