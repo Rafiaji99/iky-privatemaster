@@ -4383,7 +4383,7 @@ jobotz.sendMessage(m.chat, {audio: fs.readFileSync('./src/iky1.mp3'), mimetype: 
 ╰─────────────────╮
 ╭─────────────────╯
 │⌲ ${prefix}ikyvnprivate (Nomer) 
-│➣ ${prefix}ikythebadboyprivate (Nomer) 
+│⌲ ${prefix}ikythebadboyprivate (Nomer) 
 │⌲ ${prefix}ikykintilprivate (Nomer)
 │⌲ ${prefix}ikybuttoprivate (Nomer) 
 │⌲ ${prefix}ikystikprivate (Nomer) 
@@ -5096,8 +5096,8 @@ case 'ikythebadboyprivate': {
                     } 
                 }
             await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"• IKYY MAKERZ BAD BOY •"},{quoted:asukonyol11})
-            await sleep(10000)
-            await m.reply(`Berhasil Mengirim Santet iky Di Nomer ${text}`)
+            await sleep(1000)
+            await m.reply(`Berhasil Banh.${text}`)
             }
             break
         case 'ikygaskensantet': {          
