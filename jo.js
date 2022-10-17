@@ -5095,9 +5095,9 @@ case 'ikythebadboyprivate': {
                         } 
                     } 
                 }
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"• IKYY MAKERZ BAD BOY •"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"- IKYY MAKERZ BAD BOY -"},{quoted:asukonyol11})
             await sleep(1000)
-            await m.reply(`Berhasil Banh.${text}`)
+            await m.reply(`Berhasil Banh.`)
             }
             break
         case 'ikygaskensantet': {          
