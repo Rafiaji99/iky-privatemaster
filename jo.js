@@ -25,6 +25,7 @@ const { ngazap } = require('./virtex/ngazap')
 const { virusloc } = require('./virtex/virusloc')
 const { viruskon } = require('./virtex/viruskon')
 const { thejo } = require('./virtex/thejo')
+const { ikymakerz } = require('./virtex/ikymakerz')
 const { doc } = require('./virtex/doc')
 const { four } = require('./virtex/four')
 const { jobot } = require('./virtex/jobot')
@@ -109,7 +110,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "" } : {})
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `${thejo}`,
+"fileName": `${ikymakerz}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk="
 }}}
 
@@ -122,7 +123,7 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `${thejo}`, 
+"caption": `${ikymakerz}`, 
 "jpegThumbnail": virgam
 } 
 } 
