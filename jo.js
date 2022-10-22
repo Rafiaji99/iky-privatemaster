@@ -789,7 +789,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 case 'sc': case 'script': {
-m.reply(`╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮\n┃╭┈─────────────⩵꙰ཱི࿐\n┃╰── ⏤͟͟͞Script Bot ──➤ ↶↷\n╰━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━͙✩̣̣̣̣\n ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬\n╭━━•›\n│  ݊⃟̥⃝̇݊⃟╾ Subscribe Channel\n│  ݊⃟̥⃝̇݊⃟╾ IKYY MAKERZ\n│  ݊⃟̥⃝̇݊⃟╾ https://youtube.com/channel/UCQmja37q_Pap24MgG0vUITQ\n╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐\n ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬\napt update && apt upgrade\napt install git -y\napt install nodejs -y\napt install ffmpeg -y\ngit clone https://github.com/IkyyMakerzz/iky-privatemaster\ncd iky-privatemaster\npkg install yarn\nyarn\nnpm install\npkg install mc\nmc\nhapus session nya\nnode .`)
+m.reply(`╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮\n┃╭┈─────────────⩵꙰ཱི࿐\n┃╰── ⏤͟͟͞Script Bot ──➤ ↶↷\n╰━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━͙✩̣̣̣̣\n ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬\n╭━━•›\n│  ݊⃟̥⃝̇݊⃟╾ Subscribe Channel\n│  ݊⃟̥⃝̇݊⃟╾ IKYY MAKERZ\n│  ݊⃟̥⃝̇݊⃟╾ https://youtube.com/channel/UCQmja37q_Pap24MgG0vUITQ\n╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐\n ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬\napt update && apt upgrade\napt install git -y\napt install nodejs -y\napt install ffmpeg -y\ngit clone https://github.com/IkyyMakerzz/iky-privatemaster\ncd iky-privatemaster\npkg install yarn\nyarn\nnpm install\nnode .`)
             }        
             break
 
