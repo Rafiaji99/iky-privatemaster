@@ -24,6 +24,7 @@ global.available = false //status online (online)
 // Other
 global.owner = ['6281364011418','6281364011418','6281364011418']
 global.premium = ['6281364111257']
+global.botname = 'Ikyy Xyzox'
 global.packname = 'THE IKYY BOTZ'
 global.author = 'the ikyy Botz'
 global.wlcm = []
